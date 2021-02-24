@@ -190,7 +190,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 5ef584541360dbc40a7c8f89efd3ed37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -298,8 +298,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 109744807}
-  - component: {fileID: 109744811}
   - component: {fileID: 109744810}
+  - component: {fileID: 109744811}
   - component: {fileID: 109744809}
   - component: {fileID: 109744808}
   m_Layer: 0
@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7039edad24292a14899ac9066bf977d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotId: 0
+  slotId: 4
   inventorySlot: 1
 --- !u!212 &109744811
 SpriteRenderer:
@@ -410,7 +410,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9c2083837ede843408bdcc4f525806bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -565,6 +565,7 @@ MonoBehaviour:
   itemId: 0
   mouseOver: 0
   drag: 0
+  wasPlaced: 0
   vfxSlotOk: {fileID: 0}
   vfxSlotNope: {fileID: 0}
   vfxSlotMeh: {fileID: 0}
@@ -723,7 +724,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 5ef584541360dbc40a7c8f89efd3ed37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -1002,8 +1003,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 281858408}
-  - component: {fileID: 281858412}
   - component: {fileID: 281858411}
+  - component: {fileID: 281858412}
   - component: {fileID: 281858410}
   - component: {fileID: 281858409}
   m_Layer: 0
@@ -1074,7 +1075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7039edad24292a14899ac9066bf977d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotId: 0
+  slotId: 1
   inventorySlot: 1
 --- !u!212 &281858412
 SpriteRenderer:
@@ -1246,6 +1247,7 @@ MonoBehaviour:
   itemId: 0
   mouseOver: 0
   drag: 0
+  wasPlaced: 0
   vfxSlotOk: {fileID: 5547067211846813314, guid: 17d7ad0308f47d341bd853cfd16770b2,
     type: 3}
   vfxSlotNope: {fileID: 5547067211846813314, guid: 3125dc60dbf5d5b45827499aaa4b36ae,
@@ -1416,8 +1418,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 417913000}
-  - component: {fileID: 417912999}
   - component: {fileID: 417912998}
+  - component: {fileID: 417912999}
   - component: {fileID: 417912997}
   - component: {fileID: 417912996}
   m_Layer: 0
@@ -1514,7 +1516,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9c2083837ede843408bdcc4f525806bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1609,7 +1611,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 5ef584541360dbc40a7c8f89efd3ed37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -2285,6 +2287,7 @@ MonoBehaviour:
   itemId: 0
   mouseOver: 0
   drag: 0
+  wasPlaced: 0
   vfxSlotOk: {fileID: 5547067211846813314, guid: 17d7ad0308f47d341bd853cfd16770b2,
     type: 3}
   vfxSlotNope: {fileID: 5547067211846813314, guid: 3125dc60dbf5d5b45827499aaa4b36ae,
@@ -2708,8 +2711,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 803422696}
-  - component: {fileID: 803422700}
   - component: {fileID: 803422699}
+  - component: {fileID: 803422700}
   - component: {fileID: 803422698}
   - component: {fileID: 803422697}
   m_Layer: 0
@@ -2780,7 +2783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7039edad24292a14899ac9066bf977d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotId: 0
+  slotId: 2
   inventorySlot: 1
 --- !u!212 &803422700
 SpriteRenderer:
@@ -2820,7 +2823,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9c2083837ede843408bdcc4f525806bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3086,6 +3089,7 @@ MonoBehaviour:
   itemId: 0
   mouseOver: 0
   drag: 0
+  wasPlaced: 0
   vfxSlotOk: {fileID: 5547067211846813314, guid: 17d7ad0308f47d341bd853cfd16770b2,
     type: 3}
   vfxSlotNope: {fileID: 5547067211846813314, guid: 3125dc60dbf5d5b45827499aaa4b36ae,
@@ -3456,7 +3460,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 5ef584541360dbc40a7c8f89efd3ed37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -4293,6 +4297,7 @@ MonoBehaviour:
   itemId: 0
   mouseOver: 0
   drag: 0
+  wasPlaced: 0
   vfxSlotOk: {fileID: 5547067211846813314, guid: 17d7ad0308f47d341bd853cfd16770b2,
     type: 3}
   vfxSlotNope: {fileID: 5547067211846813314, guid: 3125dc60dbf5d5b45827499aaa4b36ae,
@@ -4361,7 +4366,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vfxAllSlot: {fileID: 5547067211846813314, guid: da0ae828ea3d93f4eb2c59dd62716352,
     type: 3}
-  ItemHeld: 0
   inventorySlotId: ffffffffffffffffffffffffffffffffffffffff
   placementSlotId: ffffffffffffffffffffffffffffffffffffffff
   inventorySlot:
@@ -4843,7 +4847,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 5ef584541360dbc40a7c8f89efd3ed37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -5789,6 +5793,7 @@ MonoBehaviour:
   itemId: 0
   mouseOver: 0
   drag: 0
+  wasPlaced: 0
   vfxSlotOk: {fileID: 5547067211846813314, guid: 17d7ad0308f47d341bd853cfd16770b2,
     type: 3}
   vfxSlotNope: {fileID: 5547067211846813314, guid: 3125dc60dbf5d5b45827499aaa4b36ae,
@@ -5821,8 +5826,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1959756492}
-  - component: {fileID: 1959756496}
   - component: {fileID: 1959756495}
+  - component: {fileID: 1959756496}
   - component: {fileID: 1959756494}
   - component: {fileID: 1959756493}
   m_Layer: 0
@@ -5893,7 +5898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7039edad24292a14899ac9066bf977d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotId: 0
+  slotId: 3
   inventorySlot: 1
 --- !u!212 &1959756496
 SpriteRenderer:
@@ -5933,7 +5938,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9c2083837ede843408bdcc4f525806bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
