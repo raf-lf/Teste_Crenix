@@ -37,15 +37,15 @@ public class Nugget : MonoBehaviour
             case (3):
                 int stringRoll2 = Random.Range(0, 6);
                 if (stringRoll2 == 0) return "AH...";
-                else if (stringRoll2 == 1) return "OK, MAS QUANDO VOCÊ VAI ENCAIXAR BONITINHO?";
+                else if (stringRoll2 == 1) return "OK, MAS QUANDO VOCÊ VAI ENCAIXAR ELA?";
                 else if (stringRoll2 == 2) return "TO FICANDO COM SONO...";
-                else if (stringRoll2 == 3) return "AI AI... SERÁ QUE TEM ALGO PRA COMER POR AQUI?";
+                else if (stringRoll2 == 3) return "AI AI... TEM ALGO PRA COMER POR AQUI?";
                 else if (stringRoll2 == 4) return "QUE LINDA, LINDA. TA LINDA, LINDA.";
 
                 else return ":/";
 
             case (4):
-                return "ABRGLAEBRLUGELRH! É O QUE QUE TA ACONTECENDO?!";
+                return "ABRGLAEBRLUGELRH! O QUE QUE TA ACONTECENDO?!";
 
             default:
                 return "?";

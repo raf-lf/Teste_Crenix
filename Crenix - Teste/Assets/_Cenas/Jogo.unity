@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 109744809}
   - component: {fileID: 109744808}
   m_Layer: 0
-  m_Name: "Slot Invent\xE1rio 5"
+  m_Name: "Slot Invent\xE1rio 4"
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -410,7 +410,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 9c2083837ede843408bdcc4f525806bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1007,7 +1007,7 @@ GameObject:
   - component: {fileID: 281858410}
   - component: {fileID: 281858409}
   m_Layer: 0
-  m_Name: "Slot Invent\xE1rio 2"
+  m_Name: "Slot Invent\xE1rio 1"
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1421,7 +1421,7 @@ GameObject:
   - component: {fileID: 417912997}
   - component: {fileID: 417912996}
   m_Layer: 0
-  m_Name: "Slot Invent\xE1rio 1"
+  m_Name: "Slot Invent\xE1rio 0"
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1514,7 +1514,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9c2083837ede843408bdcc4f525806bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2713,7 +2713,7 @@ GameObject:
   - component: {fileID: 803422698}
   - component: {fileID: 803422697}
   m_Layer: 0
-  m_Name: "Slot Invent\xE1rio 3"
+  m_Name: "Slot Invent\xE1rio 2"
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2820,7 +2820,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 9c2083837ede843408bdcc4f525806bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3518,7 +3518,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: QUE LINDA, LINDA. TA LINDA, LINDA.
 --- !u!222 &1148780836
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5826,7 +5826,7 @@ GameObject:
   - component: {fileID: 1959756494}
   - component: {fileID: 1959756493}
   m_Layer: 0
-  m_Name: "Slot Invent\xE1rio 4"
+  m_Name: "Slot Invent\xE1rio 3"
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5933,7 +5933,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 9c2083837ede843408bdcc4f525806bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
