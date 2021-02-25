@@ -75,6 +75,14 @@ public class Manager_Game : MonoBehaviour
     //Função responsável pela leitura de todos os slots do jogo, de inventário e de posicionamento
     public void CheckSlots()
     {
+        StopAllCoroutines();
+        StartCoroutine(DelayCheck(.1f));
+    }
+
+    IEnumerator DelayCheck(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
         //Desliga a colisão de todos os slots para evitar tretas na checagem. Isso ta aqui por precaução, pois já se espera que já estejam desligadas
         ToggleSlotCollision(false);
 
@@ -139,6 +147,7 @@ public class Manager_Game : MonoBehaviour
 
         //Depois da leitura das engrenagens, faz uma contagem pra saber quais engrenagens estão posicionadas
         CountPlacedGears();
+
     }
 
     public void CountPlacedGears()
