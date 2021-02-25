@@ -180,7 +180,8 @@ public class Item_Drag_Worldspace : MonoBehaviour
         }
 
         //Faz uma checagem dos slots, depois de posicionar o item
-        Manager_Game.ManagerScript.CheckSlots();
+       // Manager_Game.ManagerScript.CheckSlots();
+        StartCoroutine(DelayCheck(.25f));
     }
 
     public void SlotFail()
@@ -242,5 +243,13 @@ public class Item_Drag_Worldspace : MonoBehaviour
             transform.position = Vector2.Lerp(transform.position,dragPosition,0.3f);
         }
         
+    }
+
+    IEnumerator DelayCheck(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        Manager_Game.ManagerScript.CheckSlots();
+
     }
 }
